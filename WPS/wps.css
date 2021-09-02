@@ -1,0 +1,342 @@
+#blog{
+    margin-left: 1270px;
+    position: fixed;
+    margin-top: 470px;
+    width: 60px;
+    height: 10px;
+}
+header{
+    /* background-color: white; */
+    background-color: rgb(17, 111, 252);
+    position: fixed;
+    width: 1500px;
+}
+#item1{
+    margin-left: 9px;
+    margin-top: 5px;
+    width: 100px;
+    height: 20px;
+    position: fixed;
+}
+#item2{
+    margin-top: 5px;
+    margin-left: 1200px;
+    width: 50px;
+    height: 30px;
+    position: fixed;
+}
+header nav{
+    margin-left: 100px;
+}
+header nav ul{
+    /* background-color: white; */
+    list-style-type: none;
+    /* margin-top: -15px; */
+}
+header nav ul li{
+   display: inline;
+    margin: 0 15px;
+
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-size: medium;
+    text-decoration: none;
+    color:white;
+}
+header nav ul li a:hover{
+    color: white;
+    /* background-color: white; */
+}
+#itemX{
+    background: linear-gradient(rgb(17, 111, 252), rgb(122,185,0), red(184,72,255));
+    height: 500px;
+    width: 1430px;
+    padding: 30px;
+    animation-name: grad;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:backwards;
+}
+ @keyframes grad{
+     0%{
+         background: linear-gradient(rgb(36,126,255), rgb(190, 122, 122));
+     }
+     25%{
+        background: linear-gradient(rgb(36,126,255), rgb(253,60,84));
+    }
+    50%{
+        background: linear-gradient( rgb(17,111,252), skyblue,);
+    }
+    100%{
+        background: linear-gradient(rgb(36,126,255), rgb(190, 81, 81));
+    }
+ }
+#item3{
+    margin-top: 90px;
+    margin-left: 300px;
+}
+#item4{
+    margin-top: -100px;
+    margin-left: 500px;
+    /* width: 10px;
+    height: 10px; */
+}
+div h1{
+    font-size: 3em;
+    color: white;
+    margin-left: 80px;
+    margin-top: -320px;
+}
+div h3{
+    margin-top: -20px;
+    color: white;
+    margin-left: 80px;
+    /* margin-top: -250px; */
+}
+#item5{
+    padding-top: 20px;
+    color: white;
+    background-color: orangered;
+    width: 250px;
+    height: 40px;
+    font-size: 1.1em;
+    margin-left: 100px;
+    margin-top: 20px;
+   /* text-align: center; */
+    text-indent: 70px;
+}
+#item5:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    background-color: orange;
+}
+h4{
+    color: white;
+    text-decoration: underline;
+    margin-left: 100px;
+}
+#itemY{
+    background-color: white;
+    display: flex;
+    color: green;
+    font-size:0.7em;
+}
+#CRS{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+#item7{
+ width: 200px;
+ height: 50px;
+ text-align: center;
+ margin-top: 100px;
+ margin-left:60px;
+}
+/* #change:hover{
+    background-color: black;
+} */
+#item8{
+    margin-top:100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+#item9{
+    margin-top:100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+#item10{
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+#item11{
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+#item12{
+    margin-top: 100px;
+    /* width: 70px;
+    height: 70px; */
+    text-align:center;
+    margin-left: 15px;
+}
+section div img:hover{
+    transform: scale(1.5);
+    transition-duration: 0.2s;
+}
+section img{
+    width: 70px;
+    height: 70px;
+}
+section div h2:hover{
+    transform: scale(1.2);
+    transition-duration: 0.7s;
+}
+/* #tempt{
+    display: flex;
+    width: 600px;
+} */
+#itemA {
+    width:80px;
+    height:300px;
+    margin-top: 200px;
+    margin-left: 10px
+}
+section p{
+    text-align: center;
+    color:green;
+}
+section p:hover{
+    transition-duration: 1s;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    font-size: 0.3em;
+    /* text-indent: 90px; */
+    /* text-replace: download; */
+    text-align: center;
+    transform:scale(0.9);
+}
+#bold{
+    font-size: 2em;
+}
+#itemB{
+    width:500px;
+    margin-left: 900px;
+    margin-top: -300px;
+    color: indianred;
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    transition-duration: 1s;
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    font-size: 1.2em;
+    /* text-indent: 90px; */
+    /* text-replace: download; */
+    text-align: center;
+    transform:scale(1.2);
+}
+ol{
+    list-style-type: none; 
+    border-radius: 5px solid red;
+}
+ol li{
+    /* font-variant: small-caps; */
+     /* border-color: 10px red; */
+    border-radius: solid 5px red;
+    animation-name: man;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:backwards;
+}
+@keyframes man {
+    0% {
+        background-color: rgb(76,187,237);
+        color: white;
+        font-size: 1.2em;
+        text-indent: 15px;
+    }
+    50% {
+        background-color: green;
+        color: white;
+        font-size: 1.2em;
+        text-indent: 15px;
+    }
+    100% {
+         background-color: rgb(0,4,138);
+         color: white;
+         font-size: 1.2em;
+         text-indent: 15px;
+    }
+}
+#way{
+    display: flex;
+}
+#way img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.8s;
+}
+#image{
+    display: flex;
+    margin-top: 100px;
+}
+#wps{
+    padding-top: 20px;
+    margin-top: 250px;
+    align-items: center;
+     color: white;
+    background-color: orangered;
+    width: 300px;
+    height: 40px;
+    font-size: 1.3em;
+    margin-left: 500px;
+    text-indent: 90px;
+}
+#wps:hover{
+    transition-duration: 0.7s;
+    transform:scale(1.2);
+}
+#PDF{
+    margin-top: 30px;
+    font-size: 1.1em;
+    text-align: center;
+    width: 700px;
+    margin-left: 300px;
+}
+#format{
+    display: flex;
+    margin-top: 90px;
+}
+#Best{
+    display: flex;
+    margin-top: 190px;
+}
+#play{
+    margin-left: 40px;
+    text-align: center;
+}
+#load{
+    padding-top: 20px;
+    color: white;
+    background-color: orangered;
+    width: 300px;
+    height: 30px;
+    font-size: 1.3em;
+    margin-left: 500px;
+    margin-top: 30px;
+    text-indent: 70px;
+    /* align-items: center; */
+}
+#load:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    background-color: orange;
+}
+#last{
+    display: flex;
+    list-style-type: none;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+#list{
+    width: 150px;
+}

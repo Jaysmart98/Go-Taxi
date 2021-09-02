@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: orangered;
+}
+section {
+    border-radius: 5px;
+    background-color: orangered;
+    /* border: 5px solid darkblue; */
+    padding: 10px;
+    height: 190vh;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* align-items: flex-end; */
+}
+
+section div {
+    background-color: darkblue;
+    border-radius: 15px;
+    width: 25%;
+    height: 400px;
+    margin: 30px;
+    text-align: center;
+    box-shadow: 0 0 5px;
+    /* background-color: transparent; */
+    padding: 15px 20px 50px 15px;
+    color: orangered;
+    /* transform:scale(0.9); */
+    transition: 0.3s;
+    /* text-decoration: underline; */
+}
+
+/* section div:nth-child(2) {
+    align-self: flex-end;
+    order: 0;
+} */
+#item1:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+#item2:hover{
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+}
+#item3:hover{
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+}
